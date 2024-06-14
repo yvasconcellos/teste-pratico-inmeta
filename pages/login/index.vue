@@ -2,7 +2,7 @@
   <div class="h-screen bg-blue-100 flex items-center justify-center p-4">
     <div v-if="!loading"
       class="max-w-sm mx-auto w-full bg-white shadow-md p-8 rounded-lg flex flex-col items-center justify-center gap-4">
-      <h1 class="text-3xl text-blue-800 mb-4 font-semibold">Login</h1>
+      <img src="../../assets/logo-inmeta.svg" class="w-36" alt="INMETA Logo" />
       <form @submit.prevent="handleLogin" class="w-full">
         <div class="mb-7 relative">
           <label for="email" class="block mb-2 text-sm font-medium text-gray-700">E-mail</label>
