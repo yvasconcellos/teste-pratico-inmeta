@@ -45,16 +45,16 @@
                 </td>
                 <td class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                   <div class="flex justify-between items-center">
-                    {{ trade.tradeCards[0].card.name }}
+                    {{ trade.tradeCards[0].card?.name }}
                     <img :src="trade.tradeCards[0].card.imageUrl" alt="Card Image" class="w-8 h-full max-xl:hidden">
                   </div>
                 </td>
                 <td class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                   <div class="flex justify-between items-center">
                     <p>
-                      {{ trade.tradeCards[1].card.name }}
+                      {{ trade.tradeCards[1].card?.name }}
                     </p>
-                    <img :src="trade.tradeCards[1].card.imageUrl" alt="Card Image" class="w-8 h-full max-xl:hidden">
+                    <img :src="trade.tradeCards[1].card?.imageUrl" alt="Card Image" class="w-8 h-full max-xl:hidden">
                   </div>
                 </td>
                 <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
